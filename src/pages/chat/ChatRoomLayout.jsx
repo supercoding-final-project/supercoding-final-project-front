@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ChatRoomLayout = () => {
   return <div></div>;
 };

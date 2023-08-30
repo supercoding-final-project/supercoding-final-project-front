@@ -1,7 +1,15 @@
-import React from "react";
+// import Header from 'components/header/Header';
+
+import Header from 'src/components/header/Header';
+
+import * as S from './main.style';
 
 const MainLayout = () => {
-  return <div>main layout</div>;
+  return (
+    <S.MainWrap>
+      <Header />
+    </S.MainWrap>
+  );
 };
 
 export default MainLayout;

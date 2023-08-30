@@ -1,5 +1,3 @@
-import React from "react";
-
 const ScreenLayout = () => {
   return <div>ScreenLayout</div>;
 };

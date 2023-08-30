@@ -1,5 +1,4 @@
-import React from "react";
-import Detail from "./Detail";
+import Detail from './Detail';
 
 const DetailLayout = () => {
   return <Detail></Detail>;

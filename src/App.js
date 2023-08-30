@@ -1,12 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import GlobalStyle from './components/globalLayout/globalStyle';
-import MainLayout from './pages/main/MainLayout';
 import NotFoundLayout from './pages/error/NotFoundLayout';
+import MainLayout from './pages/main/MainLayout';
+import MentoMainLayout from './pages/main/MentoMainLayout';
 import MentiMyLayout from './pages/my/MentiMyLayout';
 import MentoMyLayout from './pages/my/MentoMyLayout';
-import MentoMainLayout from './pages/main/MentoMainLayout';
 
 function App() {
+  // const [test, setTest] = useState(true);
   return (
     <Router>
       <GlobalStyle />

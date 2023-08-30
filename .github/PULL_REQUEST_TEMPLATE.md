@@ -1,4 +1,4 @@
-closed #ISSUE_NUMBER
+<!-- closed #ISSUE_NUMBER -->
 
 ## 💡 작업 내용
 

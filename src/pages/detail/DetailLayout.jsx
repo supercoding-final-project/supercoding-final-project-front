@@ -1,7 +1,8 @@
 import React from "react";
+import Detail from "./Detail";
 
 const DetailLayout = () => {
-  return <div>DetailLayout DetailLayout</div>;
+  return <Detail></Detail>;
 };
 
 export default DetailLayout;

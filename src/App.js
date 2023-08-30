@@ -5,10 +5,8 @@ import NotFoundLayout from './pages/error/NotFoundLayout';
 import MentiMyLayout from './pages/my/MentiMyLayout';
 import MentoMyLayout from './pages/my/MentoMyLayout';
 import MentoMainLayout from './pages/main/MentoMainLayout';
-import { useState } from 'react';
 
 function App() {
-  const [test, setTest] = useState(true);
   return (
     <Router>
       <GlobalStyle />

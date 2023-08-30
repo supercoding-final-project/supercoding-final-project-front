@@ -9,7 +9,6 @@ import MentoMainLayout from "./pages/main/MentoMainLayout";
 function App() {
   return (
     <Router>
-      {/* <HeaderWrap /> */}
       <GlobalStyle />
       <Routes>
         {/* {mento ? <Route path="/Mento" element={<MentoMainLayout />} /> :<Route path="/" element={<MainLayout />} /> } */}

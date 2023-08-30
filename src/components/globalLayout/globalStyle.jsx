@@ -15,9 +15,8 @@ const GlobalStyle = createGlobalStyle`
   --main-color-800 : rgba(57, 197, 187,.8);
   --main-color-900 : rgba(57, 197, 187,.9);
 
-
-
   --sub-color : rgba(185, 241, 241,1);
+
 }
 
 ${reset}

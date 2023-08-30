@@ -1,5 +1,13 @@
+import Information from "src/components/mypage/Information";
+import LeftNavbar from "src/components/mypage/LeftNavbar";
+
 const MentiMyLayout = () => {
-  return <div>MentiMyLayout</div>;
+  return (
+    <>
+      <LeftNavbar />
+      <Information></Information>
+    </>
+  )
 };
 
 export default MentiMyLayout;

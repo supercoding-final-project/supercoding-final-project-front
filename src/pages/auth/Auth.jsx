@@ -2,7 +2,7 @@ import * as S from './Auth.style';
 import googlePath from '../../assets/google-logo.svg';
 import kakaoPath from '../../assets/kakao-logo.svg';
 import logoPath from '../../assets/login-logo.svg';
-import Button from '../../components/button/Button';
+import Button from '../../components/auth-button/Button';
 
 const Auth = () => {
   return (

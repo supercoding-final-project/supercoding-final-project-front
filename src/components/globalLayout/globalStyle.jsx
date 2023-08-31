@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import reset from "styled-reset";
+import { createGlobalStyle } from 'styled-components';
+import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
 
   --sub-color : rgba(185, 241, 241,1);
 
+  --main-gray: #f2f2f2;
 }
 
 ${reset}

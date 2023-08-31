@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import GlobalStyle from './components/globalLayout/globalStyle';
+import AuthLayout from './pages/auth/AuthLayout';
 import NotFoundLayout from './pages/error/NotFoundLayout';
 import MainLayout from './pages/main/MainLayout';
 import MentoMainLayout from './pages/main/MentoMainLayout';
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         {/* {mento ? <Route path="/Mento" element={<MentoMainLayout />} /> :<Route path="/" element={<MainLayout />} /> } */}
         <Route path="/" element={<MainLayout />} />
+        <Route path="/auth" element={<AuthLayout />} />
         <Route path="/Mento" element={<MentoMainLayout />} />
         {/* path 경로는 pages의 폴더 이름으로 */}
         <Route path="/my/menti" element={<MentiMyLayout />} />
